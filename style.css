@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+@font-face {
+    font-family: 'Resident evil';
+    src: url('./fonte/Resident_Evil_Large.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+:root {
+    --cor01: #4A738C;
+    --cor02: #194973;
+    --cor03: #011126;
+    --cor04: #00040D;
+    --cor04: #271C19;
+    --fonte01: 'Resident Evil', 'cursive';
+    --fonte02: Arial, 'verdana', 'sans-serif';
+    --fonte03: 'Syne Mono', monospace;
+}
+
+body {
+    background-color:var(--cor01)
+}
+header {
+    font-family: var(--fonte01);
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor03), var(--cor04));
+    color: white;
+    height: 115px;
+}
+main {
+    background-color: white;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 300px;
+    max-width: 700px;
+    min-height: 1000px;
+    max-height: 3800px;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.301)
+}
+
+main h2 {
+    font-family: var(--fonte03);
+    padding: 10px;
+    color: var(--cor04);
+    margin: 0px 0px 0px 5px;
+
+
+}
+main p {
+    font-family: var(--fonte02);
+    text-align: justify;
+    padding: 10px 27px 10px 26px;
+    min-width: 320px;
+    max-width: 700px;
+    line-height: 1.5em;
+}
+
+.imagem {
+    margin: auto;
+    padding: 20px 10px 10px 42px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor03);
+    color: white;
+    margin: 12px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    font-family: var(--fonte02);
+}
+
+
+
